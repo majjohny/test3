@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Testimonials 
+Plugin Name: Testimonials  is under nameing
 Plugin URI: http://annvision.com/
 Description: Just another Myworks form plugin.
 Author: Majo Johny
