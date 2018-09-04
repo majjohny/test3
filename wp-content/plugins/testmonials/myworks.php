@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Testimonials from majo
+Plugin Name: Testimonials 
 Plugin URI: http://annvision.com/
 Description: Just another Myworks form plugin.
 Author: Majo Johny
