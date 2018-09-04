@@ -45,10 +45,14 @@ foreach ( $category as $cat){
 
 echo  $cat_name;
 ?></span>
-<h3><?php  the_title();?></h3>
+<h3><?php  the_title();?> <?php  $idvales=the_id();?></h3>
 <span><?php echo $date; ?> <span class="slah_colr">/</span> <?php $totalcomments = get_comments_number(); echo $totalcomments; ?> Comment  </span>
 <p><?php the_excerpt(); ?></p>
+Price : <?php echo get_post_meta($post->ID, '_my_meta_value_key', true) ?> <br />
+SKU : <?php echo get_post_meta($post->ID, '_my_meta_value_key2', true) ?>
+<div class="clr"></div>
 <a href="<?php the_permalink(); ?>" class="read-more">Read More</a>
+
 </div>
 </div>
 
@@ -135,6 +139,9 @@ echo  $cat_name;
 <span><?php echo $date; ?> <span class="slah_colr">/</span> <?php $totalcomments = get_comments_number(); echo $totalcomments; ?> Comment  </span>
 <p><?php the_excerpt(); ?></p>
 <a href="<?php the_permalink(); ?>" class="read-more">Read More</a>
+
+
+
 </div>
 </div>
 

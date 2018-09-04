@@ -1,10 +1,11 @@
 <?php
 
 
-// Include customizer.
+// Include customizer. 
 require get_template_directory() . '/inc/customizer.php';
 
-
+// Include customizer. 
+require get_template_directory() . '/inc/custompostfeilds.php';
 
 // -----------------------------------------Create Menu Location.----------------------------------------
 function register_my_menus() {
@@ -336,6 +337,9 @@ return "$url' defer ";
 }
 add_filter( 'clean_url', 'defer_parsing_of_js', 11, 1 );
 // -----------------------------------------For SE0.----------------------------------------
+
+
+
 
 
 
