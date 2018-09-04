@@ -1,7 +1,7 @@
 <?php
 /*
 
-Plugin Name: Testimonials from majo
+Plugin Name: its majo branch copy
 Plugin URI: http://annvision.com/
 Description: Just another Myworks form plugin.
 Author: Majo Johny
