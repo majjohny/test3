@@ -1,7 +1,7 @@
 <?php
 /*
-
 Plugin Name: its majo branch copy
+parent of 7e7fde8... chage name
 Plugin URI: http://annvision.com/
 Description: Just another Myworks form plugin.
 Author: Majo Johny
