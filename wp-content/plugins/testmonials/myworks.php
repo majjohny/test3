@@ -1,6 +1,10 @@
 <?php
 /*
+<<<<<<< HEAD
 Plugin Name: Testimonials  is under nameing
+=======
+Plugin Name: Testimonials
+>>>>>>> parent of ec6b2c0... changed plugin name
 Plugin URI: http://annvision.com/
 Description: Just another Myworks form plugin.
 Author: Majo Johny
